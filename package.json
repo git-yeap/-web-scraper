@@ -1,0 +1,24 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "A command line application to scrape information from websites",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scraper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksa-test/web-scraper.git"
+  },
+  "author": "Carlos Braga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksa-test/web-scraper/issues"
+  },
+  "homepage": "https://github.com/ksa-test/web-scraper#readme",
+  "dependencies": {
+    "json2csv": "^4.2.1",
+    "osmosis": "^1.1.8"
+  }
+}
